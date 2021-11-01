@@ -13,7 +13,6 @@
 
 rm(list=ls()) # to start, remove any existing objects 
 setwd('') # set working directory to the directory containing raw data
-setwd('C:/Users/ClaireDooley/Documents/Teaching/map_challenge_2021/data/map2')
 
 # load packages
 library(sf) # version 1.0-2
