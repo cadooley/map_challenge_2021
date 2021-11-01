@@ -36,7 +36,7 @@ afgsub <- as.data.table(afg[afg$year==2021,c('latitude','longitude','geo_precisi
 
 # sum the number of fatalities by point location
 sum(afgsub$fatalities) # 41,689 fatalities in 2021 up to mid-October
-nrow(afgsub) # 9.077 unique conflict events
+nrow(afgsub) # 9,077 unique conflict events
 fat_by_loc <- afgsub[,sum(fatalities),c('latitude','longitude')]
 nrow(fat_by_loc) # 712 unique conflict locations (many have multiple events associated with them)
 names(fat_by_loc) 
