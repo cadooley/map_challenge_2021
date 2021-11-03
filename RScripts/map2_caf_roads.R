@@ -18,7 +18,7 @@ setwd('') # set working directory to the directory containing raw data
 library(sf) # version 1.0-2
 
 # read in data
-roads <- st_read('hotosm_caf_roads_lines_shp/hotosm_caf_roads_lines.shp') # conflict events data
+roads <- st_read('hotosm_caf_roads_lines_shp/hotosm_caf_roads_lines.shp') # roads data
 
 # explore roads data
 roads
